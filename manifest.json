@@ -1,0 +1,28 @@
+{
+   "browser_action": {
+      "default_icon": "icons/icon16.png",
+      "default_title": "Agarbot.ovh Bots for agar.io ext"
+   },
+   "content_scripts": [ {
+	  "all_frames": true,
+      "js": [ "agario/socket.io.js", "agario/jquery.js", "agario/content.js","agario/nouislider.js","agario/wNumb.js"],
+	  "css": [ "agario/ui.css","agario/nouislider.css" ],
+      "matches": ["https://agar.io/index.html" ,"https://agar.io/*", "https://agar.io/", "https://agar.io/?", "https://www.agar.io/?", "https://www.agar.io/*", "https://www.agar.io/?", "https://mope.io/?", "https://mope.io/", "https://www.mope.io/?", "https://www.mope.io/?", "https://gota.io/web/"],
+      "run_at": "document_start"
+	}],
+   "description": "This extension lets you use agarbot.ovh bots in agar.io",
+   "icons": {
+      "128": "icons/icon128.png",
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png"
+   },
+   "background": {
+    "scripts": ["agario/jquery.js","agario/back.js"]
+   },
+   "web_accessible_resources": [ "agario/wNumb.js" ,"agario/nouislider.js","agario/socket.io.js", "agario/agarclient.js", "agario/jquery.js","data/*.json", "agario/deltaclient.js", "agario/ogarioclient.js", "agario/agartoolclient.js"],
+   "manifest_version": 2,
+   "name": "Agarbot.ovh Bots for agar.io",
+   "permissions": [ "tabs", "\u003Call_urls>", "cookies", "contextMenus", "unlimitedStorage", "notifications", "storage", "clipboardWrite", "http://*/*", "https://*/*", "webNavigation", "webRequest", "activeTab", "file:///*/", "ws://*/", "wss://*/*", "<all_urls>","http://*/"],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "1.0.8"
+}

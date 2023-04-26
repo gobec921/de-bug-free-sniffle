@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="background.js"></script>
+  </head>
+  <body>
+    <iframe id="iframeId" width="1000 px" height="600 px" src="https://agar.io"></iframe>
+  </body>
+  <script>
+// this demo shows the process of getting the html content 
+// from the link,and then apply it to the attribute "src" in the iframe
+$.get("https://agar.io/", function (response){ 
+var html = response;
+var html_src = 'data:text/html;charset=utf-8,' + html;
+$("#iframeId").attr("src" , html_src);
+});
+</script>
+</html>

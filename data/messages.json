@@ -1,0 +1,53 @@
+{
+   "reload": {
+      "message": "Reload your game"
+   },
+   "maintenance": {
+      "message": "Maintenance mode is activated, we will come back soon."
+   },
+   "dualco": {
+      "message": "Only 2 connection authorized for m7m7"
+   },
+   "alreadyco": {
+      "message": "You are connected from elsewhere"
+   },
+   "planexpire": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blanc\">Your plan has expired</a>"
+   },
+   "noplan": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blanc\">No plan active agarbot.ovh (did you refresh IP ?)</a>"
+   },
+   "version": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blanc\">Incorrect Version</a><a href=\"http://agarbot.ovh/ext/ext-prod.zip\" target=\"_blanc\"> download here</a>"
+   },
+   "botname": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blanc\">Update bot name agarbot.ovh</a>"
+   },
+   "1": {
+      "message": "No active plan"
+   },
+   "2": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blank\"><b>Active plan ?</b><br>change your ip !</a>"
+   },
+   "3": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blank\"><b>No active plan ?</b><br>Buy one !</p></a>"
+   },
+   "4": {
+      "message": "Already on another game (refresh page)"
+   },
+   "5": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blank\"><b>Active plan ?</b><br>change your ip !</a>"
+   },
+   "6": {
+      "message": "<a href=\"http://agarbot.ovh\" target=\"_blank\"><b>No active plan ?</b><br>Buy one !</a>"
+   },
+   "logo": {
+      "message": "<a href=\"https://agarbot.ovh\" target=\"_blank\" class=\"chv2_logo\"></a>"
+   },
+   "extversion":{
+	   "message": "Agarbot_new"
+   },
+   "name": {
+      "message": "Agarbot.ovh"
+   }    
+}
